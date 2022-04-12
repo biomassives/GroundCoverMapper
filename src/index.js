@@ -9,12 +9,12 @@ import "./leaflet-measure";
 const jsts = require("jsts");
 
 const drawOptions = {
-  metric: false,
+  metric: true,
   circle: false,
   circlemarker: false,
-  marker: false,
+  marker: true,
   polyline: true,
-  polygon: false,
+  polygon: true,
   rectangle: false
 };
 
